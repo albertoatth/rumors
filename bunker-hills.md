@@ -32,3 +32,41 @@
 ทุกครั้งที่มีเรือผ่านจุดที่บันเกอร์ฮิลล์ส่งสัญญาณครั้งสุดท้าย นักเดินเรือมักจะรู้สึกถึงความหนาวเย็นแปลกๆ แม้ในวันที่อากาศร้อนจัด บางคนรายงานว่าเห็นแสงประหลาดใต้น้ำ บางคนบอกว่าได้ยินเสียงแปลกๆ ผ่านโซนาร์ ราวกับว่ามีบางสิ่งในความมืดใต้ผืนน้ำกำลังจ้องมองพวกเขาอยู่
 
 กรณีการหายตัวไปของเรือบันเกอร์ฮิลล์เป็นเครื่องเตือนใจว่า แม้ในยุคที่มนุษย์สามารถส่งยานอวกาศไปสำรวจดาวอังคาร แต่มหาสมุทรบนโลกของเรายังคงซ่อนความลึกลับอีกมากมายที่รอการค้นพบ และบางครั้ง ความลึกลับเหล่านั้นก็เรียกเก็บค่าผ่านทางด้วยชีวิตมนุษย์...
+
+---
+<br />
+<br />
+
+ผมจะสร้างชุด prompts สำหรับภาพประกอบที่สำคัญในเรื่อง ซึ่งจะช่วยสร้างบรรยากาศและอารมณ์ของเรื่องได้ดี:
+
+1. ภาพเปิดเรื่อง:
+"A massive cargo ship named SS Bancker Hill sailing on calm Pacific waters at sunset, 1960s style, cinematic shot, dark moody atmosphere, slight fog in the distance, photorealistic"
+
+2. ภาพท่าเรือ:
+"1960s Philippine port of Cebu, vintage color palette, cargo ships docked at harbor, workers loading cargo, historical accurate setting, photorealistic, atmospheric lighting"
+
+3. ภาพกัปตันและลูกเรือ:
+"1960s ship captain in uniform on bridge, serious expression, vintage nautical equipment and radio equipment in background, black and white photograph style, documentary look"
+
+4. ภาพจุดที่เรือหายตัว:
+"Aerial view of empty ocean surface, dark stormy clouds gathering, mysterious atmosphere, slight disturbance in water, cinematic wide shot, deep blue ocean waters, ominous mood"
+
+5. ภาพปฏิบัติการค้นหา:
+"1960s military search planes and ships scanning vast ocean, dramatic aerial view, search lights cutting through mist, vintage military vessels, historical accurate, documentary style"
+
+6. ภาพเหตุการณ์ลึกลับ:
+"Underwater view of dark ocean depths, mysterious lights in the deep, ghostly silhouette of a large ship, eerie blue lighting, photorealistic underwater scene, atmospheric pressure bubbles"
+
+7. ภาพครอบครัวลูกเรือ:
+"1960s family looking at old photographs and ship documents, emotional scene, vintage home interior, black and white photograph style, documentary look"
+
+8. ภาพปิดเรื่อง:
+"Modern cargo ship passing through the mysterious coordinates at night, strange bioluminescent glow in water below, full moon reflecting on ocean surface, cinematic wide shot, eerie atmosphere"
+
+สำหรับทุกภาพ ควรเพิ่ม parameters เหล่านี้เพื่อคุณภาพที่ดีขึ้น:
+- --ar 16:9 (สำหรับ aspect ratio แบบวิดีโอ)
+- --q 2 (คุณภาพสูง)
+- --s 750 (ความละเอียดที่เหมาะสม)
+- photorealistic, highly detailed, cinematic lighting
+
+คุณต้องการให้ปรับแต่ง prompt ไหนเพิ่มเติมไหมครับ? หรือต้องการ prompt สำหรับฉากอื่นๆ เพิ่มเติม?
